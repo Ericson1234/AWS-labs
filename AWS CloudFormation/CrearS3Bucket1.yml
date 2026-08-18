@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Description: Crear Amazon S3 Bucket con CloudFormation
+    Properties:
+      BucketName: mifirstbucketcloudformation
+Outputs:
+  S3Bucket:
+    Description: S3 bucket creado desde una plantilla de CloudFormation
+    Value: !Ref S3Bucket

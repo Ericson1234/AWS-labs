@@ -1,0 +1,19 @@
+<html>
+<head>
+<style>
+body {
+  background-color: #33342D;
+}
+h1 { color: white; }
+h1 {
+ text-align:center
+}
+</style>
+</head>
+<body>
+
+<h1>Esta instancia de Amazon EC2 se encuentra en la zona de disponibilidad:</h1>
+  <h1>INSTANCEID</h1>
+
+</body>
+</html>
